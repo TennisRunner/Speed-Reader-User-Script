@@ -1,0 +1,168 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+@font-face {
+  font-family: "icomoon";
+	src: url('icomoon.ttf');
+	
+}
+
+
+#gen-read{
+position:fixed;
+font-family:Quicksand;
+	background-color:#282c35;
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	z-index:1000000;
+}
+
+
+#gen-read .widget{
+display:inline-block;
+min-width:400px;
+position:fixed;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+}
+
+#gen-read .word-container{
+border-top:2px solid gray;
+border-bottom:2px solid gray;
+height:50px;
+width:400px;
+}
+
+#gen-read .word-container .red-marker-container{
+position:absolute;
+left:20%;
+}
+
+#gen-read .word-container .red-marker{
+border-top:5px solid #d99e55;
+border-bottom:5px solid #d99e55;
+width:1px;
+position:relative;
+display:inline-block;
+height:42px;
+margin-bottom: -100%;
+margin-left:20%;
+z-index:100;
+}
+
+#gen-read .controls div{
+display:inline-block;
+width:50px;
+height:50px;
+background-size:contain;
+cursor:pointer;
+font-size:40px;
+color:white;
+font-family:icomoon;
+text-align:center;
+vertical-align:top;
+}
+
+#gen-read .controls div:hover{
+opacity:0.5;
+}
+
+
+#gen-read .word-container .word .target-word{
+  color:rgba(208, 217, 238, 1.0);
+}
+
+#gen-read .word-container .word{
+  position: relative;
+  font-size:30px;
+  display:inline-block;
+  left:20%;
+  color:rgba(208, 217, 238, 0.2);
+z-index:100;
+
+width:20000px;
+}
+
+
+#gen-read .move-handle-container{
+text-align:right;
+}
+
+#gen-read div.move-handle{
+	display:inline-block;
+	font-size:30px;
+}
+
+#gen-read .move-handle:before{
+font-family: icomoon;
+content: "\e989";
+color:white;
+}
+#gen-read .controls .return:before {
+  content: "\ea21";
+}
+
+#gen-read .controls .step-back:before{
+  content: "\ea23";
+	
+}
+
+#gen-read .controls .play:before{
+  content: "\ea1c";
+	
+}
+
+#gen-read .controls .play.playing:before{
+  content: "\ea1d";
+	
+}
+
+#gen-read .controls .step-forward:before{
+  content: "\ea24";
+	
+}
+
+
+#gen-read .target-letter{
+display:inline-block;
+color:#d99e55;
+
+}
+
+#gen-read .old-letter{
+display:inline-block;
+
+
+}
+
+#gen-read .controls .wpm{
+	
+}
+
+#gen-read .loading{
+background-color:rgba(255, 255, 255, 0.1);
+width:0%;
+height:100%;
+position:absolute;
+z-index:-1;
+top:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
